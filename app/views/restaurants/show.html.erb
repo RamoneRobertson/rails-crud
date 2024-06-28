@@ -1,0 +1,9 @@
+<div class="container p-3">
+  <h1>Restaurant <%= @restaurant.name %></h1>
+  <div class="row">
+    <div class="col-6">
+      <p>Rating: <%="⭐️" *  @restaurant.rating %></p>
+      <p>Location: <%= @restaurant.address %></p>
+    </div>
+  </div>
+</div>
